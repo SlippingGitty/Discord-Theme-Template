@@ -15,7 +15,7 @@ BetterDiscord themes are stored as one file. In order for BetterDiscord to recog
 /**
  * @name ThemeName
  * @author Author
- * @version v0.1a
+ * @version 0.1a
  * @description An awesome Discord theme!
  * @source https://github.com/Author/ThemeNameRepo
  * @website https://optional.github.io/
