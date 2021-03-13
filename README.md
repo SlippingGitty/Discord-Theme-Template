@@ -1,0 +1,1 @@
+# Powercord-Vizality-Theme-Template
