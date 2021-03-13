@@ -3,9 +3,13 @@ This is basic outline of how I structure a theme. Don't use this as bible docume
 
 ## ThemeName.theme.css
 
-This is where one puts their CSS edits. BetterDiscord recognizes a theme with the `.theme.css` extension. Powercord and Vizality *do not* require your css file to have this extension. This is a personal choice I use to insure compatibility across all client mods.
+In the way we are setting things up, think of this as the heart of your theme. This is the file where you put your CSS edits. 
 
-BetterDiscord themes are stored as one file. The top of your `.theme.css` file should have something along the lines of:
+BetterDiscord recognizes a theme with the `.theme.css` extension. Powercord and Vizality *do not* require your css file to have this extension. This is a personal choice I use to insure compatibility across all client mods.
+
+Powercord and Vizality are more flexible for themes, because themes for those client mods exist in folders, allowing you to import assets and even other CSS files locally.
+
+BetterDiscord themes are stored as one file. In order for BetterDiscord to recognize your theme, the top of your `.theme.css` file should have something along the lines of:
 
 ```css
 /**
@@ -19,9 +23,9 @@ BetterDiscord themes are stored as one file. The top of your `.theme.css` file s
 ```
 # ![img](https://files.catbox.moe/ob562k.png)
 
-Powercord and Vizality are more flexible for themes, because themes for those client mods exist in folders. You can import images and other CSS files locally. The way you might organize these assets are your choice.
+After this line should be the rest of your CSS file.
 
-Personally, I use this file to import from another CSS file hosted on https://slippinggitty.github.io so that the theme can update without one having to `git pull` for theme updates. Of course, if you are updating local assets, this is probably not a method you want to use. 
+Personally, I use this file to import from another CSS file hosted on https://slippinggitty.github.io so that the theme can update without one having to `git pull` for theme updates. Of course, if you are going to be constantly updating local assets, this is might not be a method you would want to use. 
 
 You can import a CSS file by using the `@import url(" ");` tag. Here's an example:
 
