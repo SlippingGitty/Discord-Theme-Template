@@ -1,5 +1,5 @@
 <h1 align="center">Discord Theme Template</h1>
-This is basic outline of how I structure a theme. Don't use this as bible documentation. As I speak instrutively, this is actually me just trying to justify why I arange things this specific way. Please feel free to use this template! 
+This is basic outline of how I structure a theme. Don't use this as bible documentation. As I speak instructively, I'm more so justifying why I arrange things this specific way. Please feel free to use this template! 
 
 ## ThemeName.theme.css
 
@@ -19,7 +19,7 @@ BetterDiscord themes are stored as one file. The top of your `.theme.css` file s
 ```
 # ![img](https://files.catbox.moe/ob562k.png)
 
-Powercord and Vizality are more flexable for themes, because themes for those client mods exist in folders. You can import images and other CSS files locally. The way you might organize these assets are your choice.
+Powercord and Vizality are more flexible for themes, because themes for those client mods exist in folders. You can import images and other CSS files locally. The way you might organize these assets are your choice.
 
 Personally, I use this file to import from another CSS file hosted on https://slippinggitty.github.io so that the theme can update without one having to `git pull` for theme updates. Of course, if you are updating local assets, this is probably not a method you want to use. 
 
@@ -46,7 +46,7 @@ This is how Powercord recognizes your theme.
 
 # ![img](https://files.catbox.moe/3lwe0v.png)
 
-This file should be self explainitory. Powercord will give details about your theme by specifiying them in this structure in the `powercord_manifest.json` file. Powercord can even give details about your theme's license if it recognizes it (data is pulled from choosealicense.com).  
+This file should be self explainitory. Powercord will give details about your theme by specifying them in this structure in the `powercord_manifest.json` file. Powercord can even give details about your theme's license if it recognizes it (data is pulled from choosealicense.com).  
 
 # ![img](https://files.catbox.moe/weh0uh.png)
 
@@ -65,7 +65,7 @@ By adding an "a" to the end of your theme's version number, a little flask icon 
     "license": "MIT"
 }
 ```
-**SIDE NOTE:** Vizality is still in alpha. As such, I cannot include pictures of what the mods's theme manager looks like. 
+**SIDE NOTE:** Vizality is still in alpha. As such, I cannot include pictures of what the mod's theme manager looks like. 
 
 This file is *just* like the Powercord one, but is intended for Vizality. You can also include an icon for your theme by specifying one. As an example, `"assets/icon.png"` would point to an image named `icon.png` in a folder titled `assets` in the theme's folder.
 
