@@ -1,0 +1,8 @@
+{
+    "name": "ThemeName",
+    "version": "v0.1a",
+    "license": "MIT",
+    "theme": "ThemeName.theme.css",
+    "author": "Author",
+    "description": "An awesome Powercord theme!"
+}
