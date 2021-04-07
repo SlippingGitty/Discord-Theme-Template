@@ -33,6 +33,8 @@ You can import a CSS file by using the `@import url(" ");` tag. Here's an exampl
 @import url("https://author.github.io/ThemeName.css");
 ```
 
+Do note that the `.css` file **must** be imported from a remote server, such as a github.io page, otherwise this method will **not** work. 
+
 ##  powercord_manifest.json
 
 This is how Powercord recognizes your theme. 
