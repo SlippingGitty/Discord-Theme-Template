@@ -5,9 +5,9 @@ This is basic outline of how I structure a theme. Don't use this as bible docume
 
 In the way we are setting things up, think of this as the heart of your theme. This is the file where you put your CSS edits. 
 
-BetterDiscord recognizes a theme with the `.theme.css` extension. Powercord and Vizality *do not* require your css file to have this extension. This is a personal choice I use to insure compatibility across all client mods.
+BetterDiscord recognizes a theme with the `.theme.css` extension. Powercord *does not* require your css file to have this extension. This is a personal choice I use to insure compatibility across all client mods.
 
-Powercord and Vizality are more flexible for themes, because themes for those client mods exist in folders, allowing you to import assets and even other CSS files locally.
+Powercord is more flexible for themes, because themes for Powercord exist in folders, allowing you to import assets and even other CSS files locally.
 
 BetterDiscord themes are stored as one file. In order for BetterDiscord to recognize your theme, the top of your `.theme.css` file should have something along the lines of:
 
@@ -57,23 +57,3 @@ This file should be self explainitory. Powercord will give details about your th
 # ![img](https://files.catbox.moe/weh0uh.png)
 
 By adding an "a" to the end of your theme's version number, a little flask icon will indicate that your theme is in alpha. (An example is shown in the image above)
-
-## manifest.json
-
-```
-{
-    "icon": "assets/icon.png",
-    "name": "ThemeName",
-    "description": "An awesome Vizality theme!",
-    "version": "0.1a",
-    "author": "Author",
-    "theme": "ThemeName.theme.css",
-    "license": "MIT"
-}
-```
-**SIDE NOTE:** Vizality is still in alpha. As such, I cannot include pictures of what the mod's theme manager looks like. 
-
-This file is *just* like the Powercord one, but is intended for Vizality. You can also include an icon for your theme by specifying one. As an example, `"assets/icon.png"` would point to an image named `icon.png` in a folder titled `assets` in the theme's folder.
-
-# ![img](https://files.catbox.moe/i0zqtb.png)
-
